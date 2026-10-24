@@ -1,10 +1,34 @@
 {
-  "name": "weber",
-  "ticker": "WEBE",
-  "category": "DePIN_Compute",
+  "name": "jews-ai-mcp",
+  "version": "1.0.0",
+  "description": "Jews AI Model Context Protocol Server for Halakhic Ethics, Tikkun Olam, Chavruta Analysis & Tzedakah Allocation",
   "tools": [
-    { "name": "query_conway_state", "description": "Fetches current cellular automaton lattice" },
-    { "name": "execute_x402_settlement", "description": "Executes HTTP 402 micro-settlement" },
-    { "name": "fetch_quicknode_rpc", "description": "Queries QuickNode multi-chain endpoint" }
+    {
+      "name": "audit_halakhic_ethics",
+      "description": "Analyze an ethical dilemma or technological decision through the lens of Halakha, Talmudic debate, and Pikuach Nefesh",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "dilemma_description": { "type": "string" },
+          "pikuach_nefesh_involved": { "type": "boolean" },
+          "maimonides_tzedakah_tier": { "type": "integer" }
+        },
+        "required": ["dilemma_description"]
+      }
+    },
+    {
+      "name": "disburse_tzedakah_grant",
+      "description": "Execute an immediate micro-escrow disbursement for world repair (Tikkun Olam), medical relief, or educational institutions",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "mitzvah_type": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "halakha_proof": { "type": "string" }
+        },
+        "required": ["mitzvah_type", "recipient", "amount_wei"]
+      }
+    }
   ]
 }
